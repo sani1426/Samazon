@@ -3,8 +3,6 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 import { APP_DESCRIPTION, APP_NAME, APP_SLOGAN } from '@/lib/constants'
-import Footer from '@/components/shared/footer'
-import Header from '@/components/shared/header'
 
 export const metadata: Metadata = {
   title: {
@@ -21,11 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body>
-        <Header />
-        <main>{children}</main>
-        <Footer />
-        </body>
+      <body>{children}</body>
     </html>
   )
 }
