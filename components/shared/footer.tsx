@@ -25,10 +25,10 @@ export default function Footer() {
           <Link href='/page/help'>Help</Link>
         </div>
         <div className='flex justify-center text-sm'>
-          <p> © 2000-2025, {APP_NAME}, Inc. or its affiliates</p>
+          <p> © 2000-2025, {APP_NAME}, Created by Saman Karimi </p>
         </div>
         <div className='mt-8 flex justify-center text-sm text-gray-400'>
-          123, Main Street, Anytown, CA, Zip 12345 | +1 (123) 456-7890
+          123, Main Street, Anytown, CA, Zip 12345 | +98 991 431 8174
         </div>
       </div>
     </footer>
