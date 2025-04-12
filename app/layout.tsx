@@ -1,15 +1,11 @@
 import type { Metadata } from 'next'
 
 import './globals.css'
-import { Poppins } from 'next/font/google'
+import localFont from 'next/font/local'
 
 import { APP_DESCRIPTION, APP_NAME, APP_SLOGAN } from '@/lib/constants'
 
-const poppins = Poppins({
-  variable: '--font-poppins-sans',
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  subsets: ['latin'],
-})
+const myFont = localFont({ src: '/font/Poppins-Medium.ttf' })
 
 export const metadata: Metadata = {
   title: {
@@ -26,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={poppins.variable}>{children}</body>
+      <body className={myFont.className}>{children}</body>
     </html>
   )
 }
