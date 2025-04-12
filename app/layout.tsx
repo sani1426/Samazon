@@ -5,7 +5,7 @@ import localFont from 'next/font/local'
 
 import { APP_DESCRIPTION, APP_NAME, APP_SLOGAN } from '@/lib/constants'
 
-const myFont = localFont({ src: '/font/Poppins-Medium.ttf' })
+const myFont = localFont({ src: '@/public/font/Poppins-Medium.ttf' })
 
 export const metadata: Metadata = {
   title: {
