@@ -11,6 +11,9 @@ module.exports = {
   ],
   theme: {
   	extend: {
+		 fontFamily: {
+        poppins: ['var(--font-poppins)'],
+      },
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
