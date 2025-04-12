@@ -2,9 +2,7 @@
 @font-face {
   font-family: poppins;
   src: url(../public/font/Poppins-Medium.ttf)format(truetype);
-  src: url(../public/font/Poppins-bold.ttf)format(truetype);
-  src: url(../public/font/Poppins-light.ttf)format(truetype);
-  src: url(../public/font/Poppins-Italic.ttf)format(truetype);
+ 
 }
 
 @tailwind base;
