@@ -5,7 +5,7 @@ export default function Menu() {
   return (
     <div className='flex justify-end'>
       <nav className='flex gap-3 w-full'>
-        <Link href='/cart' className='header-button'>
+        <Link href='/cart' className='header-button hover:bg-white hover:text-black transition-all duration-300'>
           <UserIcon className='h-8 w-8' />
           <span className='font-bold'>Sign in</span>
         </Link>
