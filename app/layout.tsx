@@ -1,6 +1,6 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next'
 
-import "./globals.css";
+import './globals.css'
 
 import { APP_DESCRIPTION, APP_NAME, APP_SLOGAN } from '@/lib/constants'
 
@@ -15,15 +15,11 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body
-      
-      >
-        {children}
-      </body>
+    <html lang='en'>
+      <body>{children}</body>
     </html>
-  );
+  )
 }
