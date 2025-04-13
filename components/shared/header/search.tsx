@@ -40,7 +40,7 @@ export default async function Search() {
         type='submit'
         className='bg-primary text-primary-foreground text-black rounded-s-none rounded-e-md h-full px-3 py-2 '
       >
-        <SearchIcon className='w-6 h-6' />
+        <SearchIcon className='w-6 h-6 bg-yellow-500 text-black hover:bg-yellow-300 duration-500 transition-all rounded-md' />
       </button>
     </form>
   )
