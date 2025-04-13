@@ -17,3 +17,14 @@ export type Data = {
   }[]
 }
 
+export type CardItem ={
+  title:string
+  link:{text:string; href:string}
+  items:{
+    name:string
+    items?:string[]
+    image:string
+    href:string
+  }[]
+}
+
