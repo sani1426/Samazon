@@ -15,7 +15,7 @@ const Header = () => {
           <div className='flex items-center'>
             <Link
               href='/'
-              className='flex items-center header-button font-extrabold text-2xl m-1'
+              className='flex items-center header-button font-extrabold text-2xl m-1 rounded-md gap-2'
             >
               <Image
                 src='/icons/logo.svg'
