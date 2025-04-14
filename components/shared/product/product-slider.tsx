@@ -39,6 +39,7 @@ export default function ProductSlider({
                   : 'md:basis-1/3 lg:basis-1/5'
               }
             >
+              
               <ProductCard
                 hideDetails={hideDetails}
                 hideAddToCart
