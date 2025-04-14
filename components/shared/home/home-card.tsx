@@ -7,7 +7,7 @@ const HomeCard = ({ cards }: { cards: CardItem[] }) => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-4'>
       {cards.map((card) => (
-        <Card key={card.title} className='rounded-none flex flex-col'>
+        <Card key={card.title} className='rounded-md flex flex-col hover:shadow-md transition-all duration-300'>
           <CardContent className='p-4 flex-1'>
             <h3 className='text-xl font-bold mb-4'>{card.title}</h3>
             <div className='grid grid-cols-2 gap-4'>

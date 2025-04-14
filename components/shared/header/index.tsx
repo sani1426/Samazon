@@ -48,7 +48,7 @@ const Header = () => {
             <Link
               href={item.href}
               key={item.href}
-              className='header-button !p-2 rounded-sm transition-all duration-300 hover:bg-white hover:text-black'
+              className='header-button !p-2 rounded-sm transition-all duration-300 hover:bg-yellow-400 hover:text-white '
             >
               {item.name}
             </Link>
